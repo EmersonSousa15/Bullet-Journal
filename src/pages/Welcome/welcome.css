@@ -1,0 +1,67 @@
+.main-welcome{
+    height: 100vh;
+    background-color: var(--beige);
+    padding: 1rem;
+}
+
+.div-welcome-title{
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #fff;
+}
+
+.section-principal{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about{
+    width: 95%;
+    display: flex;
+}
+
+.article-text{
+    text-align: justify;
+    line-height: 1.5rem;
+    margin-right: 4rem;
+}
+
+.article-text .div-start{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.article-text .par-1, .article-text .par-2{
+    margin-left: 10px;
+}
+
+.div-start .button-start{
+    width: 200px;
+    background: var(--green);
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 3px #000;
+    cursor: pointer;
+    transition: 1s;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.button-start:hover{
+    box-shadow: 0px 0px 1px #000;;
+}
+
+.section-about h2, .section-text h2{
+    margin-bottom: 1rem;
+}
+
+.article-youtube iframe{
+    border-radius: 1rem;
+}
